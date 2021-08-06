@@ -8,9 +8,26 @@
     <title>Document</title>
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    
 </head>
 
 <body>
+    <section id="menulateral">
+        <div class="iconnav">
+            <img src="/images/logolateral.svg" alt="">
+        </div>
+        <div class="btnnav">
+            <div class="divum"></div>
+            <div class="divdois"></div>
+            <div class="divum"></div>
+            <p class="">MENU</p>
+        </div>
+        <div class="socialmedia">
+            SIGA NOS
+            <i class="fab fa-facebook-square"></i>
+        </div>
+    </section>
     <section class="container-fluid" id="banner">
         <div class="row">
             <div class="col-12">
